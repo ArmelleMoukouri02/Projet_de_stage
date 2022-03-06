@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} 
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding:10px;
+  justify-content: space-between; 
+
+}
+nav{ 
+    text-align: right;
+}
+
+nav ul{
+    display: flex; 
+}
+
+nav ul li{
+    display: flex;
+    margin-right: 20px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px; 
+}
+
+.header{
+    background: -webkit-linear-gradient(left, #c751af, #45ccb8);
+}
+
+.d-block {
+    height: 450px;
+}
+
+.w3-content{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    animation: slide 20s infinite;
+    height: 600px; 
+    width: 100%;
+
+}
+
+.col-2{
+    flex-basis: 50%;
+   min-width: 300px; 
+    margin-left: 8%; 
+    color: #45ccb8;
+    text-align: center;
+
+
+}
+
+
+
+@keyframes slide{
+    
+    0%{
+        background-image: url(../image/holding-hands-918990_1920.jpg);
+    }
+    25%{
+        background-image: url(../image/pregnant-woman-1512961_1920.jpg);
+    }
+    50%{
+        background-image: url(../image/pregnant-2640994_1920.jpg);
+    }
+    75%{
+        background-image: url(../image/baby-784609_1920.jpg);
+    }
+    100%{
+        background-image: url(../image/brothers-457237_1920.jpg);
+    }
+
+
+
+
+
+}
+
+.for_slick_slider .items{
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+
+
+
+}
+
+.for_slick_slider .items img{
+    width: 350px;
+    height: 250px;
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
